@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	border: 0;
+	font-family: 微软雅黑;
+}
+
+.wangye{
+	width:100%;
+	height:500px;
+	margin:20px auto;
+}
+
+.wangye .jieshao{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top:-200px;
+	left:-200px;
+	background-color: #00FFFF;
+	z-index: 2;
+}
+
+.neirong{
+	font-size: 20px;
+	text-align: center;
+	line-height: 66px;
+	cursor: alias;
+}
+
+.x{
+	font-size: 20px;
+	position: relative;
+	top:-17px;
+	left:181px;
+	cursor: alias;
+	display: block;
+}
+
+.test{
+	width: 100px;
+	height: 200px;
+	background-color: #00FFFF;
+	float: left;
+}
+
+.yanzhengma{
+	width: 200px;
+	height: 20px;
+	float: left;
+	position: absolute;
+	top:55px;
+	left:163px;
+	border: 1px solid red;
+}
+
+.textyan{
+	width: 200px;
+	height: 20px;	
+}
+
+.number{
+	display: block;
+	position:relative ;
+	top: -15px;
+	left: 5px;
+}
+
+.ul{
+	margin: 300px auto;
+}
+
+ul li{
+	width: 80px;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 10px;
+	border-right: 1px solid gray;
+}
+
+ul li div{
+	position: relative;
+	display: none;
+	text-align: left;
+	position: absolute;
+	z-index: 1;
+	left: 138px;
+	top:167px;
+	border: 1px solid black;
+}
+
+li:hover .yingxiong{
+}
